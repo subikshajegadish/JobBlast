@@ -1,0 +1,20 @@
+{
+  "name": "job-application-tracker-extension",
+  "version": "1.0.0",
+  "description": "Chrome extension for tracking job applications",
+  "scripts": {
+    "build": "npm run build:popup",
+    "build:popup": "vite build --config vite.config.js",
+    "dev": "vite build --config vite.config.js --watch"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.251",
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^5.0.8"
+  }
+}
+
