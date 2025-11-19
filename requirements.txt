@@ -13,3 +13,6 @@ python-dotenv==1.0.0
 pytz==2025.2
 setuptools==80.9.0
 sqlparse==0.5.3
+gunicorn
+whitenoise
+corsheaders
